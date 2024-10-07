@@ -1,0 +1,118 @@
+2024/10/07 18:14:11 Server started at :8080
+2024/10/07 18:15:12 Received text: hii
+2024/10/07 18:15:12 API response time: 104.6812ms
+2024/10/07 18:15:12 Prediction: Spam, Probability: 0.4731
+2024/10/07 18:15:42 Received text: "Congratulations! You’ve won a $1000 gift card. Click the link to claim it now!"
+2024/10/07 18:15:42 API response time: 23.073ms
+2024/10/07 18:15:42 Prediction: Spam, Probability: 1.0000
+2024/10/07 18:15:51 Received text: "Free money just for you. Don’t miss this limited time offer. Act fast!"
+2024/10/07 18:15:51 API response time: 31.9818ms
+2024/10/07 18:15:51 Prediction: Not Spam, Probability: 0.4205
+2024/10/07 18:16:03 Received text: "Hey, let's catch up for coffee tomorrow!"
+2024/10/07 18:16:03 API response time: 36.9072ms
+2024/10/07 18:16:03 Prediction: Not Spam, Probability: 0.0007
+2024/10/07 18:16:13 Received text: "Please review the attached document and let me know your feedback."
+2024/10/07 18:16:13 API response time: 16.5497ms
+2024/10/07 18:16:13 Prediction: Not Spam, Probability: 0.0094
+2024/10/07 18:16:23 Received text: "Claim your discount on our products by using this coupon."
+2024/10/07 18:16:23 API response time: 21.2006ms
+2024/10/07 18:16:23 Prediction: Spam, Probability: 0.9832
+2024/10/07 18:16:35 Received text: "Don’t miss out on this opportunity. Limited time deal!"
+2024/10/07 18:16:35 API response time: 36.292ms
+2024/10/07 18:16:35 Prediction: Not Spam, Probability: 0.0017
+2024/10/07 18:16:39 Received text: hii
+
+2024/10/07 18:16:39 API response time: 27.9129ms
+2024/10/07 18:16:39 Prediction: Spam, Probability: 0.4731
+2024/10/07 18:16:44 Received text: how are u
+2024/10/07 18:16:44 API response time: 39.8568ms
+2024/10/07 18:16:44 Prediction: Spam, Probability: 0.4731
+2024/10/07 18:16:49 Received text: no no
+2024/10/07 18:16:49 API response time: 31.0241ms
+2024/10/07 18:16:49 Prediction: Spam, Probability: 0.4731
+2024/10/07 18:16:54 Received text: i love you
+2024/10/07 18:16:54 API response time: 30.9834ms
+2024/10/07 18:16:54 Prediction: Not Spam, Probability: 0.0002
+2024/10/07 18:19:30 Server started at :8080
+2024/10/07 18:19:38 Received text: i love you
+2024/10/07 18:19:38 API response time: 96.5315ms
+2024/10/07 18:19:38 Error unmarshaling API response: invalid character '<' looking for beginning of value
+2024/10/07 18:19:40 Received text: i love you
+2024/10/07 18:19:40 API response time: 639.5852ms
+2024/10/07 18:19:40 Error unmarshaling API response: invalid character '<' looking for beginning of value
+2024/10/07 18:22:09 Server started at :8080
+2024/10/07 18:22:16 Received text: i love you
+2024/10/07 18:22:16 API response time: 49.7854ms
+2024/10/07 18:22:16 Prediction: Not Spam, Probability: 0.0002
+2024/10/07 18:22:19 Received text: hii
+2024/10/07 18:22:19 API response time: 66.442ms
+2024/10/07 18:22:19 Prediction: Spam, Probability: 0.4731
+2024/10/07 18:46:59 Server started at :8080
+2024/10/07 18:47:20 Received text: hii
+2024/10/07 18:47:20 API response time: 23.9467ms
+2024/10/07 18:47:20 Prediction: Not Spam, Probability: 0.1260
+2024/10/07 18:47:25 Received text: hello
+
+2024/10/07 18:47:25 API response time: 14.0756ms
+2024/10/07 18:47:25 Prediction: Not Spam, Probability: 0.0625
+2024/10/07 18:47:50 Received text: cungratulation u won "100000" rs give me your bank details
+2024/10/07 18:47:50 API response time: 17.1594ms
+2024/10/07 18:47:50 Prediction: Not Spam, Probability: 0.0511
+2024/10/07 18:48:11 Received text: Congratulations! You've won $1,000,000 in the International Lottery! Click the link to claim your prize: www.fakeprize.com.
+
+2024/10/07 18:48:11 API response time: 10.0295ms
+2024/10/07 18:48:11 Prediction: Spam, Probability: 0.9046
+2024/10/07 18:48:19 Received text: Claim your FREE gift card now! Limited time offer, just click here: www.freegift.com.
+
+2024/10/07 18:48:19 API response time: 14.3909ms
+2024/10/07 18:48:19 Prediction: Spam, Probability: 0.6959
+2024/10/07 18:48:25 Received text: URGENT: Your account has been compromised. Verify your identity immediately by logging in here: www.fakebank.com.
+
+2024/10/07 18:48:25 API response time: 19.5405ms
+2024/10/07 18:48:25 Prediction: Spam, Probability: 0.6038
+2024/10/07 18:48:32 Received text: Work from home and make $5,000 a day! No experience needed! Sign up at www.easycash.com.
+
+2024/10/07 18:48:32 API response time: 17.8363ms
+2024/10/07 18:48:32 Prediction: Not Spam, Probability: 0.0092
+2024/10/07 18:54:26 Server started at :8080
+2024/10/07 18:54:39 Received text: Work from home and make $5,000 a day! No experience needed! Sign up at www.easycash.com.
+
+2024/10/07 18:54:39 API response time: 36.671ms
+2024/10/07 18:54:39 Prediction: Not Spam, Probability: 0.0092
+2024/10/07 18:54:43 Received text: hii
+2024/10/07 18:54:43 API response time: 12.4157ms
+2024/10/07 18:54:43 Prediction: Not Spam, Probability: 0.1260
+2024/10/07 18:55:03 Received text: Congratulations! You've won $1,000,000 in the International Lottery! Click the link to claim your prize: www.fakeprize.com.
+
+2024/10/07 18:55:03 API response time: 60.7036ms
+2024/10/07 18:55:03 Prediction: Spam, Probability: 0.9046
+2024/10/07 18:55:12 Received text: Congratulations! You've won $1,000,000 in the International Lottery! Click the link to claim your prize: www.fakeprize.com.
+
+2024/10/07 18:55:12 API response time: 51.8308ms
+2024/10/07 18:55:12 Prediction: Spam, Probability: 0.9046
+2024/10/07 18:55:16 Received text: Congratulations! You've won $1,000,000 in the International Lottery! Click the link to claim your prize: www.fakeprize.com.
+
+2024/10/07 18:55:16 API response time: 9.988ms
+2024/10/07 18:55:16 Prediction: Spam, Probability: 0.9046
+2024/10/07 18:55:33 Received text: hi
+2024/10/07 18:55:33 API response time: 7.3096ms
+2024/10/07 18:55:33 Prediction: Not Spam, Probability: 0.0533
+2024/10/07 18:55:37 Received text: http://localhost:8080/predict
+2024/10/07 18:55:37 API response time: 7.0361ms
+2024/10/07 18:55:37 Prediction: Spam, Probability: 0.6663
+2024/10/07 18:55:42 Received text: http://localhost:8080/predict
+2024/10/07 18:55:42 API response time: 29.6576ms
+2024/10/07 18:55:42 Prediction: Spam, Probability: 0.6663
+2024/10/07 18:55:44 Received text: http://localhost:8080/predict
+2024/10/07 18:55:44 API response time: 6.1135ms
+2024/10/07 18:55:44 Prediction: Spam, Probability: 0.6663
+2024/10/07 18:55:46 Received text: http://localhost:8080/predict
+2024/10/07 18:55:46 API response time: 5.0986ms
+2024/10/07 18:55:46 Prediction: Spam, Probability: 0.6663
+2024/10/07 18:55:55 Received text: Congratulations! You've won $1,000,000 in the International Lottery! Click the link to claim your prize: www.fakeprize.com.
+
+2024/10/07 18:55:55 API response time: 28.4943ms
+2024/10/07 18:55:55 Prediction: Spam, Probability: 0.9046
+2024/10/07 18:58:28 Server started at :8080
+2024/10/07 19:00:57 Server started at :8080
+2024/10/07 19:04:38 Server started at :8080
