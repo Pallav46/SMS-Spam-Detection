@@ -117,46 +117,49 @@
     <div class="container">
         <h1>Spam Detection</h1>
         <form id="spamForm">
-            <textarea id="message" placeholder="Enter text to check for spam"></textarea>
+            <textarea id="message" name="text" placeholder="Enter text to check for spam"></textarea>
             <button type="submit">Check Spam</button>
         </form>
         <div id="result" class="result"></div>
     </div>
     
     <script>
-        document.getElementById('spamForm').addEventListener('submit', function(event) {
+        document.getElementById('spamForm').addEventListener('submit', async function(event) {
             event.preventDefault();
 
             // Get the input text
             const message = document.getElementById('message').value;
 
-            // Fake API call for demo (replace this with actual API call)
-            const result = fakeSpamCheck(message);
+            // Send the message to the Go backend API for spam prediction
+            try {
+                const response = await fetch('https://localhost:8080/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'raw',
+                    },
+                    body: new URLSearchParams({ text: message }),
+                });
+                console.log(response)
+                const result = await response.json();
 
-            // Display result
-            const resultDiv = document.getElementById('result');
-            resultDiv.style.display = 'block';
+                // Display result
+                const resultDiv = document.getElementById('result');
+                resultDiv.style.display = 'block';
 
-            if (result.isSpam) {
-                resultDiv.classList.remove('success');
-                resultDiv.classList.add('spam');
-                resultDiv.innerHTML = `Prediction: <strong>Spam</strong><br>Probability: ${result.probability}`;
-            } else {
-                resultDiv.classList.remove('spam');
-                resultDiv.classList.add('success');
-                resultDiv.innerHTML = `Prediction: <strong>Not Spam</strong><br>Probability: ${result.probability}`;
+                if (result.prediction === 'Spam') {
+                    resultDiv.classList.remove('success');
+                    resultDiv.classList.add('spam');
+                    resultDiv.innerHTML = `Prediction: <strong>Spam</strong><br>Probability: ${result.probability}`;
+                } else {
+                    resultDiv.classList.remove('spam');
+                    resultDiv.classList.add('success');
+                    resultDiv.innerHTML = `Prediction: <strong>Not Spam</strong><br>Probability: ${result.probability}`;
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred while processing the request.');
             }
         });
-
-        // Fake API function (replace with actual API integration)
-        function fakeSpamCheck(message) {
-            // For demo purposes, if the message contains "lottery" it's considered spam
-            if (message.toLowerCase().includes('lottery')) {
-                return { isSpam: true, probability: 0.95 };
-            } else {
-                return { isSpam: false, probability: 0.10 };
-            }
-        }
     </script>
 </body>
 </html>
